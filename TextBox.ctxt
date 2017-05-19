@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TextBox
+comment0.text=\r\n\ Amanda\ Schepp\r\n\ Mr.Hardman\r\n\ Assignmet\ 5\r\n\ May\ 19th\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ TextBox\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=message\ fs\ b\ fg\ bg
+comment2.target=TextBox(java.lang.String,\ int,\ boolean,\ java.awt.Color,\ java.awt.Color)
+comment3.params=message
+comment3.target=void\ setTextBox(java.lang.String)
+comment3.text=\r\n\ setTextBox\ will\ set\ the\ text\ box\ to\ img\ and\ make\ a\ call\ to\ the\ display\ method\r\n\ @param\ theere\ are\ no\ parameteres\r\n\ @return\ nothing\ is\ returend\r\n
+comment4.params=
+comment4.target=void\ display()
+comment4.text=\r\n\ display\ will\ set\ the\ image\ to\ img\ and\ if\ a\ boolean\ is\ true\ change\ the\ look\ of\ img\r\n\ @return\ nothing\ is\ returned\r\n\ @param\ there\ are\ no\ parameters\r\n
+numComments=5

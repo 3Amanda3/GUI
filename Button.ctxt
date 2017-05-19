@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Amanda\ Schepp\r\n\ Mr.Hardman\r\n\ Assignmet\ 5\r\n\ May\ 19th\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Button\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=fs\ f\ s\ t
+comment2.target=Button(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ button\ is\ a\ constructor\ for\ the\ button\ class\r\n
+comment3.params=f\ s
+comment3.target=Button(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ button\ is\ a\ construtor\ for\ the\ button\ class\r\n
+comment4.params=
+comment4.target=void\ handleMouseClicks()
+comment4.text=\r\n\ handleMouseClicks\ will\ set\ the\ image\ to\ second\ image\ when\ the\ mouse\ clicks\ the\ button\ and\ change\ it\ back\ after\r\n\ @param\ theere\ are\ no\ parameters\r\n\ @return\ nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=void\ clickedAction()
+comment5.text=\r\n\ clickedAction\ will\ be\ used\ in\ another\ project\r\n\ @Param\ there\ are\ no\ parameters\r\n\ @Return\ nothing\ is\ returned\r\n
+numComments=6
