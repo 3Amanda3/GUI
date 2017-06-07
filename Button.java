@@ -4,7 +4,7 @@ import java.awt.*;
  * Amanda Schepp
  * Mr.Hardman
  * Assignmet 5
- * May 19th
+ * June 6
  */
 public class Button extends Actor
 {
@@ -14,6 +14,7 @@ public class Button extends Actor
     
     private GreenfootImage text1;
     private GreenfootImage text2;
+    private String text;
     
     /**
      * Act - do whatever the Button wants to do. This method is called whenever
@@ -32,9 +33,9 @@ public class Button extends Actor
         fontSize = fs;
         firstImage = f;
         secondImage = s;
+        text = t;
         text1 = new GreenfootImage(t, fontSize, Color.WHITE, new Color(0,0,0,0));
         text2 = new GreenfootImage(t, fontSize, Color.BLACK, new Color(0,0,0,0));
-        
         setImage( f );
         
         getImage().drawImage(text1,(getImage().getWidth() - text1.getWidth())/2,(getImage().getHeight() - text1.getHeight())/2);
@@ -79,6 +80,19 @@ public class Button extends Actor
      */
     public void clickedAction()
     {
-        
+         UIMainWorld guiWorld = (UIMainWorld)getWorld();
+         
+         if(text.equalsIgnoreCase("Add a Timbit"))
+         {
+             guiWorld.addItem(new Timbit());
+         }
+         else if(text.equalsIgnoreCase("Add a Doughnut"))
+         {
+             guiWorld.addItem(new Dougnut());
+         }
+          else if(text.equalsIgnoreCase("Add a Coffee"))
+         {
+             guiWorld.addItem(new Coffee());
+         }
     }
 }

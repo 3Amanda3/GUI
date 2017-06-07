@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * Amanda Schepp
  * Mr.Hardman
  * Assignmet 5
- * May 19th
+ * June 6
  */
 public interface MenuCommands
 {

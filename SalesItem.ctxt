@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SalesItem
+comment0.text=\r\n\ Amanda\ Schepp\r\n\ Mr.Hardman\r\n\ Assignmet\ 5\r\n\ June\ 6\r\n
+comment1.params=
+comment1.target=SalesItem()
+comment1.text=\r\n\ is\ a\ constructor\ class\ for\ SalesItem\r\n
+comment2.params=sp
+comment2.target=SalesItem(double)
+comment2.text=\r\n\ is\ a\ constructor\ class\ for\ SalesItem\r\n
+comment3.params=
+comment3.target=int\ getNumOfItem()
+comment3.text=\r\n\ getNumOfItem\ will\ return\ the\ number\ of\ items\r\n\ @param\ there\ are\ no\ parameters\r\n\ @return\ num\ of\ items\ is\ reutrned\r\n\ \r\n
+comment4.params=
+comment4.target=double\ getFinalPrice()
+comment4.text=\r\n\ getFinalPrice\ will\ take\ the\ final\ price\ and\ add\ taxes\ to\ it\r\n\ @param\ there\ are\ no\ parameters\r\n\ @return\ will\ return\ the\ final\ price\ of\ the\ order\r\n
+comment5.params=price
+comment5.target=void\ setPrice(double)
+comment5.text=\r\n\ setPrice\r\n\ @param\ \r\n\ @return\ nothing\ is\ returned\r\n
+comment6.params=value
+comment6.target=void\ setNumber(int)
+comment6.text=\r\n\ setNumber\r\n\ @param\r\n\ @return\ nothing\ is\ returned\r\n
+numComments=7

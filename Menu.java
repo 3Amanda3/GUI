@@ -4,7 +4,7 @@ import java.awt.Color;
  * Amanda Schepp
  * Mr.Hardman
  * Assignmet 5
- * May 19th
+ * June 6
  */
 public class Menu extends Actor
 {
@@ -92,9 +92,10 @@ public class Menu extends Actor
         {
             mi = Greenfoot.getMouseInfo();
             menuIndex = ( (mi.getY() - menuItems.getY() + menuHeight / 2) - 1 ) / fontSize;
+                        getWorld().removeObject(menuItems);
             menuCommands.execute(menuIndex, getWorld());
             visible = !visible;
-            getWorld().removeObject(menuItems);
+
         }
     }
 }
